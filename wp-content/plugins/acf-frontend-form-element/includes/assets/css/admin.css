@@ -1,0 +1,73 @@
+.dynamic-values-dropdown.button {
+	position: relative;
+}
+.acf-field-text .dynamic-values-dropdown.button{
+    margin-top: 10px;
+}
+.dynamic-values-dropdown .dynamic-values {
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	min-width: 200px;
+	max-height: 400px;
+	overflow-y: scroll;
+	background: #f7f7f7;
+	border: 1px solid #ccc;
+	box-shadow: 0 1px 0 #ccc;
+	border-radius: 3px;
+	z-index: 100;
+}
+
+.dynamic-values-dropdown.floating .dynamic-values {
+	left: auto;
+	right: 0;
+}
+
+.dynamic-values-dropdown.open .dynamic-values {
+	display: block;
+}
+
+.dynamic-values-dropdown .field-divider {
+	background: #fff;
+	height: 3px;
+	border-bottom: 1px solid #ccc;
+}
+
+.dynamic-values-dropdown .dynamic-values .field-option {
+	padding: 10px;
+	border-bottom: 1px solid #ccc;
+	font-weight: 500;
+	line-height: 1;
+	overflow: auto;
+}
+
+.dynamic-values-dropdown .dynamic-values .sub-fields-wrapper {
+	border-left: 3px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+.dynamic-values-dropdown .dynamic-values .field-option.sub-field {
+	border-left: 3px solid #ccc;
+}
+
+.dynamic-values-dropdown .dynamic-values .field-option:last-child,
+.dynamic-values-dropdown .dynamic-values .sub-fields-wrapper:last-child {
+	border-bottom: 0;
+}
+
+.dynamic-values-dropdown .dynamic-values .field-option:hover {
+	background: #fff;
+}
+
+.dynamic-values-dropdown .dynamic-values .field-option .field-name {
+	display: block;
+	float: left;
+}
+
+.dynamic-values-dropdown .dynamic-values .field-option .field-type {
+	display: block;
+	color: #888;
+	float: right;
+	font-weight: 400;
+}
